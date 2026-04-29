@@ -1,0 +1,41 @@
+/workspaces/BEULROCK/
+├── package.json
+├── next.config.js
+├── postcss.config.js
+├── tsconfig.json
+├── tailwind.config.ts
+├── .env.local
+├── apps/
+│   └── web/
+│       ├── app/
+│       │   ├── globals.css
+│       │   ├── layout.tsx
+│       │   ├── page.tsx
+│       │   └── auth/
+│       │       └── register/
+│       │           └── page.tsx
+│       │   └── api/
+│       │       └── auth/
+│       │           ├── send-otp/route.ts
+│       │           ├── verify-otp/route.ts
+│       │           ├── logout/route.ts
+│       │           └── me/route.ts
+│       ├── components/
+│       │   └── landing/
+│       │       ├── Navbar.tsx
+│       │       ├── Hero.tsx
+│       │       ├── Pricing.tsx
+│       │       ├── Stats.tsx
+│       │       ├── Testimonials.tsx
+│       │       ├── Footer.tsx
+│       │       ├── LiveCodePreview.tsx
+│       │       ├── ConsoleOutput.tsx
+│       │       ├── InjectionProgress.tsx
+│       │       ├── MiniChart.tsx
+│       │       ├── StatusIndicator.tsx
+│       │       └── BeulrockLogo.tsx
+│       └── lib/
+│           ├── redis.ts
+│           ├── email.ts
+│           ├── jwt.ts
+│           └── rate-limit.ts

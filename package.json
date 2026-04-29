@@ -1,0 +1,32 @@
+{
+  "name": "beulrock-executor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd apps/web && next dev",
+    "build": "cd apps/web && next build",
+    "start": "cd apps/web && next start",
+    "lint": "cd apps/web && next lint"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.0",
+    "bcryptjs": "^3.0.3",
+    "framer-motion": "^12.38.0",
+    "hono": "^4.12.15",
+    "ioredis": "^5.10.1",
+    "jose": "^6.2.3",
+    "lucide-react": "^0.300.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "resend": "^6.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
